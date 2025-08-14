@@ -21,3 +21,5 @@ mutate() ##  can both create new variables and overwrite existing ones.
 data()  ## loads a dataset
 
 view()  ## will bring up the entire spreadsheet
+
+read_csv()  ## read the csv files and makes a tibble
