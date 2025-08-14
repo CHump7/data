@@ -4,6 +4,8 @@ ymd()  ## can turn dates into a consistent format. EXAMPLE: mdy("January 20th, 2
                                                           # code output:
                                                           # [1] "2023-01-20"
 
+as_tibble()  ## will pull the first 10 rows and all columns that can fit on the screen
+
 head()  ## preview first several rows in spreadsheet like form
 
 glimpse() and "str()"  ## show preview of info like how many rows and columns and the data type 
