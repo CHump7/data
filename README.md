@@ -17,3 +17,5 @@ mutate() ##  can both create new variables and overwrite existing ones.
 <- data.frame(, )  ## to make spreadsheet, use head() to look at it
 
 data()  ## loads a dataset
+
+view()  ## will bring up the entire spreadsheet
