@@ -16,7 +16,7 @@ mutate() ##  can both create new variables and overwrite existing ones.
 
 # or ## to write comments
 
-<- data.frame(, )  ## to make spreadsheet, use head() to look at it
+<- data.frame( , )  ## to make spreadsheet, use head() to look at it
 
 data()  ## loads a dataset
 
