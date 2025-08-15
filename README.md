@@ -31,3 +31,5 @@ install.package() and library()  ## will install and load packages such as tidyv
 
 %>%  ## Provides a mechanism for chaining commands with a new forward-pipe operator, %>%. This operator will forward a value, or the result of an expression, into the next function call/expression
 
+pivot_longer() or  pivot_wider()  ## can mkae the spreadsheet into long or wide format
+
