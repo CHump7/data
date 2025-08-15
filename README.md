@@ -35,3 +35,4 @@ pivot_longer() or  pivot_wider()  ## can mkae the spreadsheet into long or wide 
 
 arrange()  ## can be used to sort by ascending or insert "-" inside the parenthesis before the column name to sort descending
 
+unite()  ## will combine 2 columns or more into 1
