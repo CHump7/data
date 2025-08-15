@@ -23,3 +23,7 @@ data()  ## loads a dataset
 view()  ## will bring up the entire spreadsheet
 
 read_csv()  ## read the csv files and makes a tibble
+
+
+&,|,!  ## AND  OR  NOT 
+
