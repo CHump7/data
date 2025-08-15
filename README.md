@@ -27,3 +27,5 @@ read_csv()  ## read the csv files and makes a tibble
 
 &,|,!  ## AND  OR  NOT 
 
+install.package() and library()  ## will install and load packages such as tidyverse
+
