@@ -33,3 +33,5 @@ install.package() and library()  ## will install and load packages such as tidyv
 
 pivot_longer() or  pivot_wider()  ## can mkae the spreadsheet into long or wide format
 
+arrange()  ## can be used to sort by ascending or insert "-" inside the parenthesis before the column name to sort descending
+
