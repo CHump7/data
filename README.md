@@ -59,3 +59,5 @@ hotel_summary <-
             min_lead_time=min(lead_time),
             max_lead_time=max(lead_time))
 ```
+
+summarize()  ## The summarize() function is used to summarize a DataFrame or vector into a single value.
