@@ -37,5 +37,6 @@ arrange()  ## can be used to sort by ascending or insert "-" inside the parenthe
 
 unite()  ## will combine 2 columns or more into 1
 
-clean_names()  ##  clean_names() function will automatically make sure that column names are unique and consistent
+clean_names()  ## clean_names() function will automatically make sure that column names are unique and consistent
 
+group_by()  ## takes an existing tbl and converts it into a grouped tbl where operations are performed "by group"
