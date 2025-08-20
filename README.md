@@ -64,4 +64,4 @@ hotel_summary <-
 
 summarize()  ## The summarize() function is used to summarize a DataFrame or vector into a single value.
 
-ggplot2() ## includes a dataset, geoms(line graph(geom_line), bar graph(geom_bar), scatter plot(geom_point), etc...), and aesthetics such as color, shape, size, etc..., mapping alwasy goes with aes(aesthetic)  EXAMPLE: ggplot(data=penguins)+geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g))
+ggplot2() ## includes a dataset, geoms(line graph(geom_line), bar graph(geom_bar), scatter plot(geom_point), etc...), and aesthetics such as color, shape, size, etc..., mapping always goes with aes(aesthetic)  EXAMPLE: ggplot(data=penguins)+geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g))
