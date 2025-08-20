@@ -44,3 +44,8 @@ group_by()  ## takes an existing tbl and converts it into a grouped tbl where op
 ## save as a data frame if you want to keep the manipulated data
 
 min(),max()  ## finds and returns the smallest or largest number. and you have to use $ to specify what column. and you need to specify the dataset.   EXAMPLE: max(hotel_bookings$lead_time)
+
+mean()  ## Generic function for the (trimmed) arithmetic mean.
+
+na.rm = FALSE ## a logical value indicating whether NA values should be stripped before the computation proceeds.
+
