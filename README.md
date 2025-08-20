@@ -49,3 +49,4 @@ mean()  ## Generic function for the (trimmed) arithmetic mean.
 
 na.rm = FALSE ## a logical value indicating whether NA values should be stripped before the computation proceeds.
 
+filter()  ## Use filter() find rows/cases where conditions are true.  EXAMPLE: filter(starwars, hair_color == "none" & eye_color == "black")
