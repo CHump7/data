@@ -40,3 +40,5 @@ unite()  ## will combine 2 columns or more into 1
 clean_names()  ## clean_names() function will automatically make sure that column names are unique and consistent
 
 group_by()  ## takes an existing tbl and converts it into a grouped tbl where operations are performed "by group"
+
+## save as a data frame if you want to keep the manipulated data
