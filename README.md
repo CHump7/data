@@ -50,3 +50,12 @@ mean()  ## Generic function for the (trimmed) arithmetic mean.
 na.rm = FALSE ## a logical value indicating whether NA values should be stripped before the computation proceeds.
 
 filter()  ## Use filter() find rows/cases where conditions are true.  EXAMPLE: filter(starwars, hair_color == "none" & eye_color == "black")
+
+```{r group and summarize}
+hotel_summary <- 
+  hotel_bookings %>%
+  group_by(hotel) %>%
+  summarise(average_lead_time=mean(lead_time),
+            min_lead_time=min(lead_time),
+            max_lead_time=max(lead_time))
+```
