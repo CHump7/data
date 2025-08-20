@@ -51,6 +51,7 @@ na.rm = FALSE ## a logical value indicating whether NA values should be stripped
 
 filter()  ## Use filter() find rows/cases where conditions are true.  EXAMPLE: filter(starwars, hair_color == "none" & eye_color == "black")
 
+##
 ```{r group and summarize}
 hotel_summary <- 
   hotel_bookings %>%
@@ -59,5 +60,8 @@ hotel_summary <-
             min_lead_time=min(lead_time),
             max_lead_time=max(lead_time))
 ```
+##
 
 summarize()  ## The summarize() function is used to summarize a DataFrame or vector into a single value.
+
+ggplot2() ## includes a dataset, geoms(line graph, bar graph, scatter plot, etc...), and aesthetics such as color, shape, size, etc...
