@@ -67,3 +67,5 @@ summarize()  ## The summarize() function is used to summarize a DataFrame or vec
 ggplot2() ## includes a dataset, geoms(line graph(geom_line), bar graph(geom_bar), scatter plot(geom_point), etc...), and aesthetics such as color, shape, size, etc..., mapping always goes with aes(aesthetic)  EXAMPLE: ggplot(data=penguins)+geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g))
 
 facet_wrap()  ## used to graph each variable individually. At the end of ggplot() --- EXAMPLE: +facet_wrap(~species)
+
+facet_grid()  ## vertical by first variable and horizontal by second --- EXAMPLE +facet_grid(sex~species)
