@@ -77,5 +77,5 @@ fill=  ## colors bar graphs --- EXAMPLE: ggplot(data = hotel_bookings) +
 
  labs()  ## to label title or axis. can do title, subtitle, and caption --- EXAMPLE: labs(title= "palmer penguins wing size comparison")
 
-annotate()  ## to add text inside the chart --- EXAMPLE: annotate("text", x=200, y=3500, label="the penguings", color="purple")
+annotate()  ## to add text inside the chart --- EXAMPLE: annotate("text", x=200, y=3500, label="the penguings", color="purple", fontface="bold", size:4.5)
 
