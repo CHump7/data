@@ -72,3 +72,7 @@ facet_grid()  ## vertical by first variable and horizontal by second --- EXAMPLE
 
 fill=  ## colors bar graphs --- EXAMPLE: ggplot(data = hotel_bookings) +
   geom_bar(mapping = aes(x = distribution_channel,fill=market_segment ))
+
+ theme(axis.text.x = element_text(angle = 45))  ## makes the text a different angle if too cluttered
+
+ 
