@@ -79,3 +79,4 @@ fill=  ## colors bar graphs --- EXAMPLE: ggplot(data = hotel_bookings) +
 
 annotate()  ## to add text inside the chart --- EXAMPLE: annotate("text", x=200, y=3500, label="the penguings", color="purple", fontface="bold", size:4.5, angle=25)
 
+ggsave()  ## used to save a chart as png, jpeg, etc... --- EXAMPLE: ggsave("palmer_penguins.PNG")
