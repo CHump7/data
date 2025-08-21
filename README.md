@@ -76,3 +76,6 @@ fill=  ## colors bar graphs --- EXAMPLE: ggplot(data = hotel_bookings) +
  theme(axis.text.x = element_text(angle = 45))  ## makes the text a different angle if too cluttered
 
  labs()  ## to label title or axis. can do title, subtitle, and caption --- EXAMPLE: labs(title= "palmer penguins wing size comparison")
+
+annotate()  ## to add text inside the chart --- EXAMPLE: annotate("text", x=200, y=3500, label="the penguings")
+
