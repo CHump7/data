@@ -69,3 +69,6 @@ ggplot2() ## includes a dataset, geoms(line graph(geom_line), bar graph(geom_bar
 facet_wrap()  ## used to graph each variable individually. At the end of ggplot() --- EXAMPLE: +facet_wrap(~species)
 
 facet_grid()  ## vertical by first variable and horizontal by second --- EXAMPLE +facet_grid(sex~species)
+
+fill=  ## colors bar graphs --- EXAMPLE: ggplot(data = hotel_bookings) +
+  geom_bar(mapping = aes(x = distribution_channel,fill=market_segment ))
