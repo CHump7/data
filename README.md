@@ -80,3 +80,25 @@ fill=  ## colors bar graphs --- EXAMPLE: ggplot(data = hotel_bookings) +
 annotate()  ## to add text inside the chart --- EXAMPLE: annotate("text", x=200, y=3500, label="the penguings", color="purple", fontface="bold", size:4.5, angle=25)
 
 ggsave()  ## used to save a chart as png, jpeg, etc... --- EXAMPLE: ggsave("palmer_penguins.PNG")
+
+Rmarkdown  ## Here are some basic formatting options:
+
+  To start a new paragraph, end a line with two spaces
+
+    To apply italics to a word or phrase, place an asterisk at the beginning and at the end of the word or phrase, for example, *italics works*
+
+      To apply bold to a word or phrase, place two asterisks at the beginning and at the end of the word or phrase, for example, **bold is useful**
+
+        To create a header, type a hashtag (#) followed by a space and your text for example: # Getting Started with R Markdown
+
+          When creating headers keep the following in mind:
+
+            Headers will appear in blue
+
+              A single hashtag is the largest header
+
+                The more hashtags you add (up to six), the smaller the header
+
+                  This is a way to save files as html or word document to present
+                    
+                    Copy code chunks into it such as install.packages(), and library(), and read.csv 
