@@ -102,3 +102,5 @@ Rmarkdown  ## Here are some basic formatting options:
                   This is a way to save files as html or word document to present
                     
                     Copy code chunks into it such as install.packages(), and library(), and read.csv 
+
+https://github.com/erikaduan/r_tips/blob/master/README.md  ## R Tips
