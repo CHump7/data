@@ -3,4 +3,4 @@ Parameteres
 rotate
 move_left
 move_right
-_process      runs multiple times per second,  every frame
+_process(delta)      runs multiple times per second,  every frame
