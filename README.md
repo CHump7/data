@@ -1,5 +1,6 @@
 Func
 Parameteres
+Arguments
 rotate
 move_left
 move_right
