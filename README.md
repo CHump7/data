@@ -10,3 +10,6 @@ _process(delta)      runs multiple times per second,  every frame
 func name():
   instruction 1
   instruction 2
+
+# for comments
+-= for health -= amount to lose health
