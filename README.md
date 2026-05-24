@@ -2,6 +2,7 @@ Func
 Parameteres
 Arguments
 rotate
+variables - values that change over time 
 move_left
 move_right
 _process(delta)      runs multiple times per second,  every frame
