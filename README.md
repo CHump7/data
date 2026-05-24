@@ -1,11 +1,11 @@
 Func
-Parameteres is the ()
-Arguments is in the parenthesis
+Parameteres # is the ()
+Arguments # is in the parenthesis
 rotate
-variables - values that change over time 
+variables # values that change over time 
 move_left
 move_right
-_process(delta)      runs multiple times per second,  every frame
+_process(delta)   # runs multiple times per second,  every frame
 
 func name():
   instruction 1
