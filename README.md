@@ -13,3 +13,4 @@ func name():
 
 # for comments
 -= for health -= amount to lose health
++= for health += amount to gain health
