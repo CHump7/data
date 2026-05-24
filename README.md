@@ -21,3 +21,4 @@ move_right
 pass # can be used as a placeholder to not recieve and error
 .append # adds a new value at the end of an array 
 string # holds the value of text with quotes "this is text"
+round() # rounds decimals to the nesrest whole number
