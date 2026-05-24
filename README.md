@@ -14,3 +14,5 @@ delta # the time it took godot to complete the previous frame, when multiplying 
 += for health += amount to gain health
 move_left
 move_right
+== # means equal to
+!= # means not equal to
