@@ -16,3 +16,4 @@ move_left
 move_right
 == # means equal to
 != # means not equal to
+pass # can be used as a placeholder to not recieve and error
