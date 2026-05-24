@@ -1,6 +1,6 @@
 Func
-Parameteres
-Arguments
+Parameteres is the ()
+Arguments is in the parenthesis
 rotate
 variables - values that change over time 
 move_left
