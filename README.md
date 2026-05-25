@@ -20,7 +20,7 @@ move_right
 != # means not equal to
 pass # can be used as a placeholder to not recieve and error
 .append() # adds a new value at the end of an array 
-string # holds the value of text with quotes "this is text"
+string # or str() holds the value of text with quotes "this is text" and can be used to turn numbers and vectors into text
 round() # rounds decimals to the nesrest whole number
 lerp() # short for linear interpolate takes 3 arguments a start value, an end value, and and a blend amount between 0.0 and 1.0
 Vector2(x,y) # used to write coordinates
@@ -28,3 +28,4 @@ Vector2(x,y) # used to write coordinates
 .pop_back() # removes values from the end of the array
 dictionary # allows you to map pairs of values ex.
   var dictionary = { key1: value1, ...}
+int # short for integer
