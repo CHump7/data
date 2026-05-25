@@ -28,4 +28,7 @@ Vector2(x,y) # used to write coordinates
 .pop_back() # removes values from the end of the array
 dictionary # allows you to map pairs of values ex.
   var dictionary = { key1: value1, ...}
-int # short for integer
+int() # short for integer, can turn strings, deicmals, and booleans into whole numbers
+float() # can turn strings into decimals
+deviding by whole  numbers will only return whole numbers ex 3/2 = 1. deviding by decimals will return decimals ex 3.0/2.0 = 1.5
+:= # can be used like var cell_size := Vector2(50.0, 50.0) to set the type value after the equal sign to use type hints and can help find errors faster 
