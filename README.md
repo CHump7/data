@@ -1,7 +1,7 @@
 Func # ex.
-func name():
-  instruction 1
-  instruction 2
+  func name():
+    instruction 1
+    instruction 2
 
 Parameteres # is the ()
 Arguments # is in the parenthesis
@@ -26,3 +26,5 @@ lerp() # short for linear interpolate takes 3 arguments a start value, an end va
 Vector2(x,y) # used to write coordinates
 .pop_front() # used to remove values from the start of the array
 .pop_back() # removes values from the end of the array
+dictionary # allows you to map pairs of values ex.
+  var dictionary = { key1: value1, ...}
