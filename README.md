@@ -35,3 +35,4 @@ deviding by whole  numbers will only return whole numbers ex 3/2 = 1. deviding b
 CanvasLayer Node # can make UI stay on the screen like the heath bar if you make the health bar a child node of CanvasLayer
 F # press the F key in Godot to center
 # +, -, +- can be seen next to code to indicate if the code has been added, subtracted, or changed on the old, diff, or new tab
+.angle() # is a function of Vector2 and can be used with rotation to always face the direction that the object is moving in... var velocity := Vector2(0,500)... rotation = velocity.angle()
