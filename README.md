@@ -34,4 +34,4 @@ deviding by whole  numbers will only return whole numbers ex 3/2 = 1. deviding b
 := # can be used like var cell_size := Vector2(50.0, 50.0) to set the type value after the equal sign to use type hints and can help find errors faster 
 CanvasLayer Node # can make UI stay on the screen like the heath bar if you make the health bar a child node of CanvasLayer
 F # press the F key in Godot to center
-# +, -, +- can be seen next to code to indicate if the code has been added, subtracted, or changed on this version
+# +, -, +- can be seen next to code to indicate if the code has been added, subtracted, or changed on the old, diff, or new tab
