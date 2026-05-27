@@ -4,7 +4,7 @@ Func # ex.
     instruction 1
     instruction 2
 ```
-Parameteres # is the ()
+`Parameteres # is the ()`
 Arguments # is in the parenthesis
 rotate
 variables # values that change over time and you can give names to them
