@@ -29,18 +29,24 @@ Range(5)
 # array 
 ## is like range but typed out manually and with brackets [1, 2, 3...] an empty array counts as false and an array with items counts as true
 # # for comments
--= for health -= amount to lose health
-+= for health += amount to gain health
-move_left
-move_right
-== # means equal to
-!= # means not equal to
-pass # can be used as a placeholder to not recieve and error
-.append() # adds a new value at the end of an array 
-string # or str() holds the value of text with quotes "this is text" and can be used to turn numbers and vectors into text
-round() # rounds decimals to the nesrest whole number
-lerp() # short for linear interpolate takes 3 arguments a start value, an end value, and and a blend amount between 0.0 and 1.0
-Vector2(x,y) # used to write coordinates... To calculate the length of the vector, we use the following calculations:
+# -= for health -= amount to lose health, += for health += amount to gain health
+# move_left, move_right
+# ==  
+## means equal to
+# != 
+## means not equal to
+# pass 
+## can be used as a placeholder to not recieve and error
+# .append() 
+## adds a new value at the end of an array 
+# string 
+## or str() holds the value of text with quotes "this is a text string" and can be used to turn numbers and vectors into text
+# round() 
+## rounds decimals to the nesrest whole number
+# lerp() 
+## short for linear interpolate takes 3 arguments a start value, an end value, and and a blend amount between 0.0 and 1.0
+# Vector2(x,y) 
+## used to write coordinates... To calculate the length of the vector, we use the following calculations:
 
     We square the x and y components of the vector.
     We sum the results.
