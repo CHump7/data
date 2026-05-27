@@ -23,7 +23,12 @@ pass # can be used as a placeholder to not recieve and error
 string # or str() holds the value of text with quotes "this is text" and can be used to turn numbers and vectors into text
 round() # rounds decimals to the nesrest whole number
 lerp() # short for linear interpolate takes 3 arguments a start value, an end value, and and a blend amount between 0.0 and 1.0
-Vector2(x,y) # used to write coordinates
+Vector2(x,y) # used to write coordinates... To calculate the length of the vector, we use the following calculations:
+
+    We square the x and y components of the vector.
+    We sum the results.
+    We take the square root of the sum.
+
 .pop_front() # used to remove values from the start of the array
 .pop_back() # removes values from the end of the array
 dictionary # allows you to map pairs of values ex.
