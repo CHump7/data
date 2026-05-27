@@ -48,7 +48,7 @@ Range(5)
 # lerp() 
 ## short for linear interpolate takes 3 arguments a start value, an end value, and and a blend amount between 0.0 and 1.0
 # Vector2(x,y) 
-## used to write coordinates... To calculate the length of the vector, we use the following calculations:
+## used to write coordinates... Vector2.length() calculates and returns the length of the vector in pixels... Vector2.normalized() calculates and returns the vector divided by its length, which helps us limit the length to one... To calculate the length of the vector, we use the following calculations:
 
     We square the x and y components of the vector.
     We sum the results.
