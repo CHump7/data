@@ -36,4 +36,4 @@ CanvasLayer Node # can make UI stay on the screen like the heath bar if you make
 F # press the F key in Godot to center
 # +, -, +- can be seen next to code to indicate if the code has been added, subtracted, or changed on the old, diff, or new tab
 .angle() # is a function of Vector2 and can be used with rotation to always face the direction that the object is moving in... var velocity := Vector2(0,500)... rotation = velocity.angle()
-Input.get_axis() # The function Input.get_axis() takes two input action names as arguments and returns a value between -1.0 and 1.0. ex... direction.x = Input.get_axis("move_left", "move_right")
+Input.get_axis() # The function Input.get_axis() takes two input action names as arguments and returns a value between -1.0 and 1.0. ex... direction.x = Input.get_axis("move_left", "move_right")... The order of the arguments in Input.get_axis() matters. The first argument corresponds to the negative direction, while the second argument corresponds to the positive direction. If you invert them, you'll get inverted movement!
