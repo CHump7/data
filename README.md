@@ -1,5 +1,5 @@
 `
-#Func # ex.
+# Func # ex.
   func name():
     instruction 1
     instruction 2
