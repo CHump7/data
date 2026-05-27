@@ -101,3 +101,5 @@ direction.x = Input.get_axis("move_left", "move_right")
 ## ^ stands for "to the power of"
 # sqrt() 
 ## sqrt means "square root"
+# Input.is_action_just_pressed()
+## is used to detect when the player first presses a key
