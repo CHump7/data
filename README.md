@@ -1,9 +1,11 @@
-`
-# Func # ex.
+
+# Func 
+```
+ex.
   func name():
     instruction 1
     instruction 2
-`
+```
 `Parameteres # is the ()`
 Arguments # is in the parenthesis
 rotate
