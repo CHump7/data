@@ -6,8 +6,10 @@ ex.
     instruction 1
     instruction 2
 ```
-# Parameteres is the ()
-# Arguments is in the parenthesis
+# Parameteres 
+## is the ()
+# Arguments 
+## is in the parenthesis
 # rotate
 # variables are values that change over time and you can give names to them
 # _process(delta) runs multiple times per second,  every frame
