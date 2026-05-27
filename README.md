@@ -8,10 +8,13 @@ ex.
 ```
 # Parameteres is the ()
 # Arguments is in the parenthesis
-## rotate
+# rotate
 # variables are values that change over time and you can give names to them
 # _process(delta) runs multiple times per second,  every frame
-delta # the time it took godot to complete the previous frame, when multiplying by delta you make  it time depandant instead of frame dependant  ex. (3.0 * delta)
+# delta is the time it took Godot to complete the previous frame, when multiplying by delta you make it time depandant instead of frame dependant  
+```
+ex. (3.0 * delta)
+```
 Range(n) # used for numbers in parameters -1
 array # is like range but typed out manually and with brackets [1, 2, 3...] an empty array count as false and an array with items counts as true
 # for comments
