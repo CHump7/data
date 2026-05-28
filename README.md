@@ -16,7 +16,7 @@ Ex.
 # _process(delta) 
 ## runs multiple times per second,  every frame
 # delta 
-## is the time it took Godot to complete the previous frame, when multiplying by delta you make it time depandant instead of frame dependant  
+## is the time it took Godot to complete the previous frame, when multiplying by delta you make it time depandant instead of frame dependant... delta represents a fraction of a second, its value is typically very small (around 0.0167 at 60 frames per second)  
 ```
 Ex.
 (3.0 * delta)
