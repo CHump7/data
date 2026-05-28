@@ -31,7 +31,7 @@ Range(5)
 ## is like range but typed out manually and with brackets [1, 2, 3...] an empty array counts as false and an array with items counts as true
 # # for comments
 # -= for health -= amount to lose health 
-# += for health += amount to gain health
+# += for health += amount to gain health... The big difference is replacing (=) vs. building on (+=)
 # move_left, move_right
 # ==  
 ## means equal to
