@@ -123,3 +123,5 @@ signal_name.connect(function_to_call)
 ```
 # _
 ## A leading underscore in a variable or function name means that you don't want anyone to use this function or variable from another script. It's a convention to indicate that this function or variable should only be used within the same script. Functions like _ready() and _process() are special functions that Godot calls automatically, so you don't want other scripts to call them directly. Similarly, When we make a function that responds to a signal, it's often very specific, so we use an underscore to show that it's not meant to be used elsewhere.
+# _ready()
+## tells Godot to call the node once
