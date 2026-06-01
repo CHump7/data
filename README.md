@@ -117,3 +117,7 @@ func _ready() -> void:
 ## right-click on the empty Texture property of the Sprite2D node in the Inspector. Godot offers a long list of compatible resource types you can manually create, and it also offers a Quick Load option at the bottom of the list. then uou can fuzzy search for the compatable file if you know the file name.
 # warning sign next to node
 ## Whenever Godot shows a warning like this, it means the node is missing something to do its job. You can hover over the warning sign or click it to see what's missing.
+# signal syntax to connect a signal
+```
+signal_name.connect(function_to_call)
+```
