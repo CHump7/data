@@ -103,3 +103,5 @@ direction.x = Input.get_axis("move_left", "move_right")
 ## sqrt means "square root"
 # Input.is_action_just_pressed()
 ## is used to detect when the player first presses a key
+# In Godot 4.6, when you run your game, it can appear directly inside the editor in the Game workspace. 
+## You can playtest your game without switching to a separate window, and you get access to useful debugging tools.
