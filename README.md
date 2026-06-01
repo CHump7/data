@@ -126,4 +126,4 @@ signal_name.connect(function_to_call)
 # _ready()
 ## tells Godot to call the node once
 # queue_free
-## To delete a node and its children, you can call queue_free()
+## To delete a node and its children, you can call the queue_free() function
