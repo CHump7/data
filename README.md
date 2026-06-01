@@ -105,3 +105,9 @@ direction.x = Input.get_axis("move_left", "move_right")
 ## is used to detect when the player first presses a key
 # In Godot 4.6, when you run your game, it can appear directly inside the editor in the Game workspace. 
 ## You can playtest your game without switching to a separate window, and you get access to useful debugging tools.
+```
+func _ready() -> void:
+	if not Engine.is_embedded_in_editor():
+		get_window().mode = Window.MODE_FULLSCREEN
+```
+## This code checks if the game is running inside the editor. If it's not (meaning the player launched the exported game), it switches to fullscreen.
