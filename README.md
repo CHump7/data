@@ -111,3 +111,7 @@ func _ready() -> void:
 		get_window().mode = Window.MODE_FULLSCREEN
 ```
 ## This code checks if the game is running inside the editor. If it's not (meaning the player launched the exported game), it switches to fullscreen.
+# Control + A
+## is the hotkey for addinbg a node
+# Sprite2D node 
+## right-click on the empty Texture property of the Sprite2D node in the Inspector. Godot offers a long list of compatible resource types you can manually create, and it also offers a Quick Load option at the bottom of the list. then uou can fuzzy search for the compatable file if you know the file name.
