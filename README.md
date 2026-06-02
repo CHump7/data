@@ -48,7 +48,11 @@ Range(5)
 # lerp() 
 ## short for linear interpolate takes 3 arguments a start value, an end value, and and a blend amount between 0.0 and 1.0
 # Vector2(x,y) 
-## used to write coordinates... Vector2.length() calculates and returns the length of the vector in pixels... Vector2.normalized() calculates and returns the vector divided by its length, which helps us limit the length to one... Checking if the vector length is greater than zero is a good way to check if the player is pressing any movement keys... To calculate the length of the vector, we use the following calculations:
+## used to write coordinates... 
+## Vector2.length() calculates and returns the length of the vector in pixels... 
+## Vector2.normalized() calculates and returns the vector divided by its length, which helps us limit the length to one... 
+## Checking if the vector length is greater than zero is a good way to check if the player is pressing any movement keys... 
+### To calculate the length of the vector, we use the following calculations:
 
     We square the x and y components of the vector.
     We sum the results.
@@ -127,3 +131,5 @@ signal_name.connect(function_to_call)
 ## tells Godot to call the node once
 # queue_free
 ## To delete a node and its children, you can call the queue_free() function
+# Refactoring
+## Reworking a scene or a script to allow adding new features is a common task in programming and game development. We call this refactoring.
