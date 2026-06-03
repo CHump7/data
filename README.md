@@ -137,3 +137,5 @@ signal_name.connect(function_to_call)
 ## The remote scene tree is a tool that allows you to inspect the nodes in your running game.
 # Refactoring
 ##  Reworking a scene or a script to allow adding new features is a common task in programming and game development. We call this refactoring.
+# Control node
+## The Control node is an invisible point or box that can contain other UI elements
