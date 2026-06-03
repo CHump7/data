@@ -139,3 +139,5 @@ signal_name.connect(function_to_call)
 ##  Reworking a scene or a script to allow adding new features is a common task in programming and game development. We call this refactoring.
 # Control node
 ## The Control node is an invisible point or box that can contain other UI elements
+# ProgressBar node
+## The ProgressBar node is a UI element that displays a bar that fills up or empties based on its value property. It's perfect for health bars, loading progress bars, etc.
