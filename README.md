@@ -133,5 +133,7 @@ signal_name.connect(function_to_call)
 ## To delete a node and its children, you can call the queue_free() function
 # Refactoring
 ## Reworking a scene or a script to allow adding new features is a common task in programming and game development. We call this refactoring.
-# remote scene tree
+# Remote scene tree
 ## The remote scene tree is a tool that allows you to inspect the nodes in your running game.
+# Refactoring
+##  Reworking a scene or a script to allow adding new features is a common task in programming and game development. We call this refactoring.
