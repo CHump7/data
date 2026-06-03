@@ -141,3 +141,9 @@ signal_name.connect(function_to_call)
 ## The Control node is an invisible point or box that can contain other UI elements
 # ProgressBar node
 ## The ProgressBar node is a UI element that displays a bar that fills up or empties based on its value property. It's perfect for health bars, loading progress bars, etc.
+### right click on the section next to fill or background under styles and under theme overrides
+    A StyleBoxEmpty makes the bar invisible.
+    A StyleBoxTexture lets you use an image to draw the bar.
+    A StyleBoxFlat gives you many properties to draw rounded rectangles, borders, and more.
+    A StyleBoxLine draws a thin line.
+
