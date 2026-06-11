@@ -146,4 +146,5 @@ signal_name.connect(function_to_call)
     A StyleBoxTexture lets you use an image to draw the bar.
     A StyleBoxFlat gives you many properties to draw rounded rectangles, borders, and more.
     A StyleBoxLine draws a thin line.
-
+# Label nodes 
+## You can add text to a user interface using the Label node.
