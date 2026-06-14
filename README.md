@@ -148,3 +148,5 @@ signal_name.connect(function_to_call)
     A StyleBoxLine draws a thin line.
 # Label nodes 
 ## You can add text to a user interface using the Label node.
+# Node2D
+## Node2D is the base node type for 2D scenes in Godot. It's an invisible node that can have children and move, rotate, and scale. It also gives us access to functions to read the viewport size, which we'll use to spawn collectibles within the game window.
